@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A92A96BB25DB0E20004E60E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A96BA25DB0E20004E60E7 /* AppDelegate.swift */; };
-		A92A96BD25DB0E20004E60E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A96BC25DB0E20004E60E7 /* SceneDelegate.swift */; };
-		A92A96BF25DB0E20004E60E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A96BE25DB0E20004E60E7 /* ViewController.swift */; };
-		A92A96C225DB0E20004E60E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92A96C025DB0E20004E60E7 /* Main.storyboard */; };
 		A92A96C425DB0E20004E60E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92A96C325DB0E20004E60E7 /* Assets.xcassets */; };
 		A92A96C725DB0E20004E60E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92A96C525DB0E20004E60E7 /* LaunchScreen.storyboard */; };
 		A92A96D225DB0E21004E60E7 /* EventChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A96D125DB0E21004E60E7 /* EventChallengeTests.swift */; };
@@ -37,9 +34,6 @@
 /* Begin PBXFileReference section */
 		A92A96B725DB0E20004E60E7 /* EventChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92A96BA25DB0E20004E60E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A92A96BC25DB0E20004E60E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A92A96BE25DB0E20004E60E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A92A96C125DB0E20004E60E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A92A96C325DB0E20004E60E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A92A96C625DB0E20004E60E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A92A96C825DB0E20004E60E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				A92A96BA25DB0E20004E60E7 /* AppDelegate.swift */,
-				A92A96BC25DB0E20004E60E7 /* SceneDelegate.swift */,
-				A92A96BE25DB0E20004E60E7 /* ViewController.swift */,
-				A92A96C025DB0E20004E60E7 /* Main.storyboard */,
 				A92A96C325DB0E20004E60E7 /* Assets.xcassets */,
 				A92A96C525DB0E20004E60E7 /* LaunchScreen.storyboard */,
 				A92A96C825DB0E20004E60E7 /* Info.plist */,
@@ -233,7 +224,6 @@
 			files = (
 				A92A96C725DB0E20004E60E7 /* LaunchScreen.storyboard in Resources */,
 				A92A96C425DB0E20004E60E7 /* Assets.xcassets in Resources */,
-				A92A96C225DB0E20004E60E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A92A96BF25DB0E20004E60E7 /* ViewController.swift in Sources */,
 				A92A96BB25DB0E20004E60E7 /* AppDelegate.swift in Sources */,
-				A92A96BD25DB0E20004E60E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +284,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A92A96C025DB0E20004E60E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A92A96C125DB0E20004E60E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A92A96C525DB0E20004E60E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
