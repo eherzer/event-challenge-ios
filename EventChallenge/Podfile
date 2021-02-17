@@ -8,6 +8,7 @@ target 'EventChallenge' do
   # Pods for EventChallenge
   pod 'Alamofire'
   pod 'Kingfisher'
+  pod 'SwiftyJSON'
 
   target 'EventChallengeTests' do
     inherit! :search_paths
