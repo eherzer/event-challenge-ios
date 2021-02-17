@@ -8,11 +8,6 @@
 import XCTest
 @testable import EventChallenge
 
-enum MockServiceType: Int {
-    case success
-    case failure
-}
-
 class EventListServiceTests: XCTestCase {
     var service: EventListServiceProtocol?
     
