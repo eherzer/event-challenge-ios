@@ -33,6 +33,7 @@
 		A92A976D25DCA760004E60E7 /* EventDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A976C25DCA760004E60E7 /* EventDetailsPresenter.swift */; };
 		A92A977325DCA7D4004E60E7 /* EventDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A977125DCA7D4004E60E7 /* EventDetailsVC.swift */; };
 		A92A977425DCA7D4004E60E7 /* EventDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92A977225DCA7D4004E60E7 /* EventDetailsVC.xib */; };
+		A92A977E25DCBFA6004E60E7 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A977D25DCBFA6004E60E7 /* RoundButton.swift */; };
 		B7CEEADDE19A9193AB92AD9C /* Pods_EventChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1745B1F8CC8442B7655488 /* Pods_EventChallengeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		A92A976C25DCA760004E60E7 /* EventDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsPresenter.swift; sourceTree = "<group>"; };
 		A92A977125DCA7D4004E60E7 /* EventDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsVC.swift; sourceTree = "<group>"; };
 		A92A977225DCA7D4004E60E7 /* EventDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventDetailsVC.xib; sourceTree = "<group>"; };
+		A92A977D25DCBFA6004E60E7 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		A9E253E12C8264DA00D35144 /* Pods-EventChallenge-EventChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventChallenge-EventChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-EventChallenge-EventChallengeUITests/Pods-EventChallenge-EventChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1A1CEE9C2BB5C7B4F505F05 /* Pods-EventChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventChallenge.debug.xcconfig"; path = "Target Support Files/Pods-EventChallenge/Pods-EventChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		C713487D071D49B3217EFC05 /* Pods-EventChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventChallenge.release.xcconfig"; path = "Target Support Files/Pods-EventChallenge/Pods-EventChallenge.release.xcconfig"; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				A92A973925DC9758004E60E7 /* BaseService.swift */,
+				A92A977D25DCBFA6004E60E7 /* RoundButton.swift */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -584,6 +587,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92A977E25DCBFA6004E60E7 /* RoundButton.swift in Sources */,
 				A92A975D25DCA51F004E60E7 /* EventDetailsPresenterProtocol.swift in Sources */,
 				A92A971725DC556F004E60E7 /* EventListService.swift in Sources */,
 				A92A970225DC3D92004E60E7 /* EventListServiceProtocol.swift in Sources */,
