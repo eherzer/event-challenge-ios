@@ -12,6 +12,16 @@
 		A92A96C725DB0E20004E60E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92A96C525DB0E20004E60E7 /* LaunchScreen.storyboard */; };
 		A92A96D225DB0E21004E60E7 /* EventChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A96D125DB0E21004E60E7 /* EventChallengeTests.swift */; };
 		A92A96DD25DB0E21004E60E7 /* EventChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A96DC25DB0E21004E60E7 /* EventChallengeUITests.swift */; };
+		A92A96FA25DB3D00004E60E7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A96F925DB3D00004E60E7 /* Event.swift */; };
+		A92A970225DC3D92004E60E7 /* EventListServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A970125DC3D92004E60E7 /* EventListServiceProtocol.swift */; };
+		A92A970A25DC3F89004E60E7 /* EventListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A970925DC3F89004E60E7 /* EventListPresenterProtocol.swift */; };
+		A92A970F25DC3F9A004E60E7 /* EventListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A970E25DC3F9A004E60E7 /* EventListViewProtocol.swift */; };
+		A92A971725DC556F004E60E7 /* EventListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A971625DC556F004E60E7 /* EventListService.swift */; };
+		A92A971C25DC55E0004E60E7 /* EventListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A971B25DC55E0004E60E7 /* EventListPresenter.swift */; };
+		A92A972225DC56B0004E60E7 /* EventListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A972025DC56B0004E60E7 /* EventListVC.swift */; };
+		A92A972325DC56B0004E60E7 /* EventListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92A972125DC56B0004E60E7 /* EventListVC.xib */; };
+		A92A972A25DC8BBF004E60E7 /* EventListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A972825DC8BBF004E60E7 /* EventListCell.swift */; };
+		A92A972B25DC8BBF004E60E7 /* EventListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92A972925DC8BBF004E60E7 /* EventListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +53,16 @@
 		A92A96D825DB0E21004E60E7 /* EventChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92A96DC25DB0E21004E60E7 /* EventChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventChallengeUITests.swift; sourceTree = "<group>"; };
 		A92A96DE25DB0E21004E60E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92A96F925DB3D00004E60E7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A92A970125DC3D92004E60E7 /* EventListServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListServiceProtocol.swift; sourceTree = "<group>"; };
+		A92A970925DC3F89004E60E7 /* EventListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListPresenterProtocol.swift; sourceTree = "<group>"; };
+		A92A970E25DC3F9A004E60E7 /* EventListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewProtocol.swift; sourceTree = "<group>"; };
+		A92A971625DC556F004E60E7 /* EventListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListService.swift; sourceTree = "<group>"; };
+		A92A971B25DC55E0004E60E7 /* EventListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListPresenter.swift; sourceTree = "<group>"; };
+		A92A972025DC56B0004E60E7 /* EventListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListVC.swift; sourceTree = "<group>"; };
+		A92A972125DC56B0004E60E7 /* EventListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventListVC.xib; sourceTree = "<group>"; };
+		A92A972825DC8BBF004E60E7 /* EventListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCell.swift; sourceTree = "<group>"; };
+		A92A972925DC8BBF004E60E7 /* EventListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +113,8 @@
 		A92A96B925DB0E20004E60E7 /* EventChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				A92A96F625DB3CD7004E60E7 /* model */,
+				A92A96F725DB3CDD004E60E7 /* modules */,
 				A92A96BA25DB0E20004E60E7 /* AppDelegate.swift */,
 				A92A96C325DB0E20004E60E7 /* Assets.xcassets */,
 				A92A96C525DB0E20004E60E7 /* LaunchScreen.storyboard */,
@@ -117,6 +139,86 @@
 				A92A96DE25DB0E21004E60E7 /* Info.plist */,
 			);
 			path = EventChallengeUITests;
+			sourceTree = "<group>";
+		};
+		A92A96F625DB3CD7004E60E7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A92A96F825DB3CF3004E60E7 /* event */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A92A96F725DB3CDD004E60E7 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				A92A96FF25DB3EED004E60E7 /* eventList */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		A92A96F825DB3CF3004E60E7 /* event */ = {
+			isa = PBXGroup;
+			children = (
+				A92A96F925DB3D00004E60E7 /* Event.swift */,
+			);
+			path = event;
+			sourceTree = "<group>";
+		};
+		A92A96FF25DB3EED004E60E7 /* eventList */ = {
+			isa = PBXGroup;
+			children = (
+				A92A970025DB3F18004E60E7 /* protocols */,
+				A92A971325DC54F5004E60E7 /* presenter */,
+				A92A971525DC5506004E60E7 /* service */,
+				A92A971425DC54FD004E60E7 /* view */,
+			);
+			path = eventList;
+			sourceTree = "<group>";
+		};
+		A92A970025DB3F18004E60E7 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A92A970925DC3F89004E60E7 /* EventListPresenterProtocol.swift */,
+				A92A970125DC3D92004E60E7 /* EventListServiceProtocol.swift */,
+				A92A970E25DC3F9A004E60E7 /* EventListViewProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		A92A971325DC54F5004E60E7 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A92A971B25DC55E0004E60E7 /* EventListPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		A92A971425DC54FD004E60E7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A92A972725DC8B9C004E60E7 /* cell */,
+				A92A972025DC56B0004E60E7 /* EventListVC.swift */,
+				A92A972125DC56B0004E60E7 /* EventListVC.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A92A971525DC5506004E60E7 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				A92A971625DC556F004E60E7 /* EventListService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		A92A972725DC8B9C004E60E7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A92A972825DC8BBF004E60E7 /* EventListCell.swift */,
+				A92A972925DC8BBF004E60E7 /* EventListCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +324,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92A972B25DC8BBF004E60E7 /* EventListCell.xib in Resources */,
+				A92A972325DC56B0004E60E7 /* EventListVC.xib in Resources */,
 				A92A96C725DB0E20004E60E7 /* LaunchScreen.storyboard in Resources */,
 				A92A96C425DB0E20004E60E7 /* Assets.xcassets in Resources */,
 			);
@@ -248,6 +352,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92A971725DC556F004E60E7 /* EventListService.swift in Sources */,
+				A92A970225DC3D92004E60E7 /* EventListServiceProtocol.swift in Sources */,
+				A92A970F25DC3F9A004E60E7 /* EventListViewProtocol.swift in Sources */,
+				A92A972225DC56B0004E60E7 /* EventListVC.swift in Sources */,
+				A92A971C25DC55E0004E60E7 /* EventListPresenter.swift in Sources */,
+				A92A96FA25DB3D00004E60E7 /* Event.swift in Sources */,
+				A92A970A25DC3F89004E60E7 /* EventListPresenterProtocol.swift in Sources */,
+				A92A972A25DC8BBF004E60E7 /* EventListCell.swift in Sources */,
 				A92A96BB25DB0E20004E60E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
