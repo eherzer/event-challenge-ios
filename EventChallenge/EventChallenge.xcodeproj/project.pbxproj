@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,7 @@
 		A92A972325DC56B0004E60E7 /* EventListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92A972125DC56B0004E60E7 /* EventListVC.xib */; };
 		A92A972A25DC8BBF004E60E7 /* EventListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A972825DC8BBF004E60E7 /* EventListCell.swift */; };
 		A92A972B25DC8BBF004E60E7 /* EventListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92A972925DC8BBF004E60E7 /* EventListCell.xib */; };
+		A92A973A25DC9758004E60E7 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A973925DC9758004E60E7 /* BaseService.swift */; };
 		B7CEEADDE19A9193AB92AD9C /* Pods_EventChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1745B1F8CC8442B7655488 /* Pods_EventChallengeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		A92A972125DC56B0004E60E7 /* EventListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventListVC.xib; sourceTree = "<group>"; };
 		A92A972825DC8BBF004E60E7 /* EventListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCell.swift; sourceTree = "<group>"; };
 		A92A972925DC8BBF004E60E7 /* EventListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventListCell.xib; sourceTree = "<group>"; };
+		A92A973925DC9758004E60E7 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		A9E253E12C8264DA00D35144 /* Pods-EventChallenge-EventChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventChallenge-EventChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-EventChallenge-EventChallengeUITests/Pods-EventChallenge-EventChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1A1CEE9C2BB5C7B4F505F05 /* Pods-EventChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventChallenge.debug.xcconfig"; path = "Target Support Files/Pods-EventChallenge/Pods-EventChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		C713487D071D49B3217EFC05 /* Pods-EventChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventChallenge.release.xcconfig"; path = "Target Support Files/Pods-EventChallenge/Pods-EventChallenge.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +127,6 @@
 				35C6638F34CF3FE0D01AF352 /* Pods-EventChallengeTests.debug.xcconfig */,
 				1DE5E415AD4D1E7FFABA095B /* Pods-EventChallengeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,6 +157,7 @@
 			children = (
 				A92A96F625DB3CD7004E60E7 /* model */,
 				A92A96F725DB3CDD004E60E7 /* modules */,
+				A92A973825DC974A004E60E7 /* util */,
 				A92A96BA25DB0E20004E60E7 /* AppDelegate.swift */,
 				A92A96C325DB0E20004E60E7 /* Assets.xcassets */,
 				A92A96C525DB0E20004E60E7 /* LaunchScreen.storyboard */,
@@ -260,6 +262,14 @@
 				A92A972925DC8BBF004E60E7 /* EventListCell.xib */,
 			);
 			path = cell;
+			sourceTree = "<group>";
+		};
+		A92A973825DC974A004E60E7 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				A92A973925DC9758004E60E7 /* BaseService.swift */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,6 +519,7 @@
 				A92A96FA25DB3D00004E60E7 /* Event.swift in Sources */,
 				A92A970A25DC3F89004E60E7 /* EventListPresenterProtocol.swift in Sources */,
 				A92A972A25DC8BBF004E60E7 /* EventListCell.swift in Sources */,
+				A92A973A25DC9758004E60E7 /* BaseService.swift in Sources */,
 				A92A96BB25DB0E20004E60E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
