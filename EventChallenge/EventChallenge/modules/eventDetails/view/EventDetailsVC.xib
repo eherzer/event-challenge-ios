@@ -15,6 +15,7 @@
                 <outlet property="lbDate" destination="hOa-w3-b4c" id="7Bn-bl-ykX"/>
                 <outlet property="lbDescription" destination="Ql0-Us-BMb" id="4xa-oU-pGg"/>
                 <outlet property="lbTitle" destination="C1Z-eC-vGd" id="AiL-fu-d5g"/>
+                <outlet property="mapImageView" destination="APZ-Ti-BrR" id="ltw-fi-Zw5"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -27,7 +28,7 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lwn-RM-GJP">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="339.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="535.5"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A8u-1G-FlD">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="207"/>
@@ -53,17 +54,26 @@
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="APZ-Ti-BrR">
+                                    <rect key="frame" x="16" y="347.5" width="382" height="180"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="180" id="R4F-zb-5uD"/>
+                                    </constraints>
+                                </imageView>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
                                 <constraint firstItem="A8u-1G-FlD" firstAttribute="leading" secondItem="lwn-RM-GJP" secondAttribute="leading" id="1as-5g-Kc5"/>
+                                <constraint firstAttribute="trailing" secondItem="APZ-Ti-BrR" secondAttribute="trailing" constant="16" id="3ls-wu-9iE"/>
+                                <constraint firstItem="APZ-Ti-BrR" firstAttribute="leading" secondItem="lwn-RM-GJP" secondAttribute="leading" constant="16" id="4ZH-0m-uz7"/>
                                 <constraint firstItem="A8u-1G-FlD" firstAttribute="centerX" secondItem="lwn-RM-GJP" secondAttribute="centerX" id="7od-lu-wtk"/>
                                 <constraint firstAttribute="trailing" secondItem="C1Z-eC-vGd" secondAttribute="trailing" constant="32" id="7r7-Q0-79L"/>
                                 <constraint firstAttribute="trailing" secondItem="A8u-1G-FlD" secondAttribute="trailing" id="7vn-KD-xJY"/>
                                 <constraint firstItem="Ql0-Us-BMb" firstAttribute="top" secondItem="hOa-w3-b4c" secondAttribute="bottom" constant="16" id="ATB-Dh-kFi"/>
-                                <constraint firstAttribute="bottom" secondItem="Ql0-Us-BMb" secondAttribute="bottom" id="Biw-D6-d2K"/>
                                 <constraint firstItem="C1Z-eC-vGd" firstAttribute="leading" secondItem="lwn-RM-GJP" secondAttribute="leading" constant="32" id="BxN-wc-WjN"/>
+                                <constraint firstItem="APZ-Ti-BrR" firstAttribute="top" secondItem="Ql0-Us-BMb" secondAttribute="bottom" constant="8" id="EWc-g6-AYo"/>
                                 <constraint firstItem="Ql0-Us-BMb" firstAttribute="leading" secondItem="lwn-RM-GJP" secondAttribute="leading" constant="16" id="Fad-qp-uNu"/>
+                                <constraint firstAttribute="bottom" secondItem="APZ-Ti-BrR" secondAttribute="bottom" constant="8" id="J4R-8v-xr2"/>
                                 <constraint firstItem="A8u-1G-FlD" firstAttribute="top" secondItem="lwn-RM-GJP" secondAttribute="top" id="N5K-ez-95m"/>
                                 <constraint firstItem="hOa-w3-b4c" firstAttribute="leading" secondItem="lwn-RM-GJP" secondAttribute="leading" constant="32" id="dEF-g7-qFS"/>
                                 <constraint firstAttribute="trailing" secondItem="hOa-w3-b4c" secondAttribute="trailing" constant="32" id="doB-qn-u4U"/>
