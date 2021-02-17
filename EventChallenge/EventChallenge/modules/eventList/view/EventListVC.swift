@@ -75,3 +75,13 @@ extension EventListVC: UITableViewDataSource {
         return cell!
     }
 }
+
+extension EventListVC: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let event = events[indexPath.row]
+        
+        let eventDetailsVC = EventDetailsVC(event: event)
+        eventDetailsVC.modalPresentationStyle = .pageSheet
+        self.present(eventDetailsVC, animated: true, completion: nil)
+    }
+}
