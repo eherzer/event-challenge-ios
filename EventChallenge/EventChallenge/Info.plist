@@ -43,5 +43,10 @@
 	</array>
 	<key>BASE_URL</key>
 	<string>https://5f5a8f24d44d640016169133.mockapi.io/api</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
