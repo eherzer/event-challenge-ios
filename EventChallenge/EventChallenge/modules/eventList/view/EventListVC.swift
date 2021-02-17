@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class EventListVC: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -19,6 +20,8 @@ class EventListVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.tableFooterView = UIView()
         
         presenter = EventListPresenter(view: self, service: EventListService())
         presenter.loadEvents()
@@ -64,9 +67,9 @@ extension EventListVC: UITableViewDataSource {
         if let cell = cell as? EventListCell {
             let event = events[indexPath.row]
             
-            //TODO cell.imgEvent
+            cell.imgEvent.kf.setImage(with: URL(string: event.image))
             cell.lbTitle.text = event.title
-            cell.lbDate.text = "12/12/12"
+            cell.lbDate.text = Date.from(seconds: event.date).humanFormat()
         }
         
         return cell!
