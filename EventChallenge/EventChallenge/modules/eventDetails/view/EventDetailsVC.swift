@@ -50,6 +50,17 @@ class EventDetailsVC: UIViewController {
         }
     }
     
+    @IBAction func btnShareClicked(_ sender: Any) {
+        guard let event = self.event else {
+            return
+        }
+        
+        let shareStr = "Vamos ir ao evento \(event.title) no dia \(Date.from(seconds: event.date).humanFormat())!"
+        
+        let activityVC = UIActivityViewController(activityItems: [shareStr], applicationActivities: nil)
+        self.present(activityVC, animated: true, completion: nil)
+    }
+    
     private func loadLocationMap() {
         guard  let latitude = self.event?.latitude,
                let longitude = self.event?.longitude else {
